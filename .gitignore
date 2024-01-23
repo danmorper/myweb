@@ -1,0 +1,72 @@
+*.db
+*.py[cod]
+.web
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment
+pyvenv.cfg/
+pyvenv/
+
+# Ignore dependencies and packages
+bin/
+include/
+lib/
+web/
+
+# Ignore editor-specific files
+.DS_Store
+
+# Ignore generated files
+assets/
+web/
+
+# Ignore sensitive or project-specific config files
+rxconfig.py
+
+# Ignore project-generated files (e.g., logs, caches)
+*.log
+*.cache
+
+# Ignore environment-specific files (e.g., environment variables)
+.env
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore text editor backup/swap files
+*~
+
+
+# Ignore project documentation
+doc/
+docs/
+
+# Ignore compiled files or build artifacts (e.g., compiled binaries)
+*.exe
+*.o
+*.out
+*.so
+*.dll
+*.class
+
+# Ignore package manager directories
+node_modules/
+vendor/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore user-specific files and directories
+.idea/
+.vscode/
+*.iml
+
+# Ignore temporary or generated files
+tmp/
+temp/
+
+pyvenv.cfg
